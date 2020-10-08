@@ -38,7 +38,7 @@ export const ContactUsForm = () => {
             <div className="field">
                 <label htmlFor="message">Message</label>
                 <input
-                    type="textArea"
+                    type="textarea"
                     id="message"
                     name="message"
                     ref={register({ required: true })}
